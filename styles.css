@@ -1,0 +1,11 @@
+section{
+    height: 2200px;
+}
+
+.stick_to_top{
+    position: fixed;
+}
+
+.flip-image{
+    transform: rotateY(180deg);
+}
