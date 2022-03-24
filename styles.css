@@ -1,11 +1,40 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html { 
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
 section{
-    height: 2200px;
+    height: 1200px;
+}
+
+ul{
+    list-style: none;
+    display: table;
+    margin: 0 250px;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .stick_to_top{
     position: fixed;
 }
 
+/* .flex-header {
+    color: #000000
+    
+} */
+
 .flip-image{
     transform: rotateY(180deg);
 }
+
