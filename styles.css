@@ -12,7 +12,7 @@ html {
 }
 
 section{
-    height: 1200px;
+    height: 2000px;
 }
 
 ul{
@@ -25,6 +25,24 @@ ul{
     justify-content: space-around;
 }
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #BF7631;
+}
+
+h1 {
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 20px;
+}
+  
 .landing-area{
     height: 75vh;
     background-color: black;
@@ -39,12 +57,16 @@ ul{
     position: fixed;
 }
 
-/* .flex-header {
-    color: #000000
-    
-} */
-
 .flip-image{
     transform: rotateY(180deg);
 }
 
+.button {
+    background-color: #BF7631;
+    border: none;
+    color: white;
+}
+
+.price {
+    font-size: 15px;
+}
